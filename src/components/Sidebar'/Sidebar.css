@@ -2,8 +2,8 @@
     padding: 20px 10px;
     height: 100vh;
     overflow: auto;
-    background-color: rgb(66, 57, 57);
-    color: white;
+    background-color: var(--background-color);
+    color: var(--color); 
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -14,7 +14,7 @@
 .sidebar svg{
     width: 30px;
     height: 30px;
-    color: white;
+    color: var(--color);
 }
 .ham{
     margin-left: 15px;
